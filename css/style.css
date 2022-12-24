@@ -138,9 +138,9 @@ svg path {
   border: 3px solid #9FA0C3;
   border-radius: 5px;
   font-weight: 500;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
 }
 
 .button._fw {
@@ -690,26 +690,58 @@ svg path {
           justify-content: center;
   margin: 0px auto;
   overflow: hidden;
-  position: relative;
-  z-index: 3;
-  margin-top: 50px;
+  margin-top: 1.875rem;
 }
 
 .slider-portfolio__dotts .swiper-pagination-bullet {
   margin: 0px 0.46875rem;
   cursor: pointer;
-  height: 0.9375rem;
-  width: 0.9375rem;
+  height: 1.875rem;
+  width: 1.5625rem;
   position: relative;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background-color: #7B435B;
-  border-radius: 50%;
 }
 
-.slider-portfolio__dotts .swiper-pagination-bullet-active {
+.slider-portfolio__dotts .swiper-pagination-bullet::after {
+  content: "";
+  height: 0.125rem;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translate(0px, -50%);
+      -ms-transform: translate(0px, -50%);
+          transform: translate(0px, -50%);
   background-color: #9FA0C3;
+}
+
+.slider-portfolio__dotts .swiper-pagination-bullet::before {
+  content: "";
+  background-color: #9FA0C3;
+  width: 0.625rem;
+  height: 0.625rem;
+  top: 50%;
+  left: 0;
+  border-radius: 50%;
+  -webkit-transform: translate(0px, -50%);
+      -ms-transform: translate(0px, -50%);
+          transform: translate(0px, -50%);
+  position: absolute;
+  opacity: 0;
+}
+
+.slider-portfolio__dotts .swiper-pagination-bullet-active::after {
+  background-color: #7B435B;
+}
+
+.slider-portfolio__dotts .swiper-pagination-bullet-active::before {
+  opacity: 1;
+  -webkit-transition: left 3s linear 0s;
+  -o-transition: left 3s linear 0s;
+  transition: left 3s linear 0s;
+  left: 0.5rem;
+  background-color: #7B435B;
 }
 
 .item-portfolio {
@@ -871,7 +903,6 @@ svg path {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   z-index: 2;
-  border-radius: 5px;
 }
 
 .contacts-item__button:hover::before {
@@ -1511,8 +1542,8 @@ svg path {
 
 @media (max-width: 43.74875em) {
   .header__button {
-    margin-top: 1.875rem;
-    font-size: 1.75rem;
+    margin-top: 1.875rem !important;
+    font-size: 1.75rem !important;
   }
 }
 
