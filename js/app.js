@@ -4190,6 +4190,7 @@
             "itemPortfolio3.title": "Responsive, cross-browser and semantic gift landing page.",
             "itemPortfolio4.title": "JavaScript Quiz on React.",
             "itemPortfolio5.title": "Travelline - responsive, cross-browser and semantic landing page.",
+            "itemPortfolio7.title": "Meridian - responsive, cross-browser and semantic multipage.",
             "contacts.subtitle": "Contacts",
             "contacts.title": "Get in touch",
             "itemContent.title": "Ready to hire me?",
