@@ -3641,8 +3641,7 @@
             loop: true,
             pagination: {
                 el: ".slider-portfolio__dotts",
-                clickable: true,
-                dynamicBullets: true
+                clickable: true
             },
             breakpoints: {
                 320: {
