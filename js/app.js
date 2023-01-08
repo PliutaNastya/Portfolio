@@ -3641,7 +3641,19 @@
             loop: true,
             pagination: {
                 el: ".slider-portfolio__dotts",
-                clickable: true
+                clickable: true,
+                dynamicBullets: true
+            },
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true
             },
             breakpoints: {
                 320: {
@@ -4190,6 +4202,7 @@
             "itemPortfolio4.title": "JavaScript Quiz on React.",
             "itemPortfolio5.title": "Travelline - responsive, cross-browser and semantic landing page.",
             "itemPortfolio7.title": "Meridian - responsive, cross-browser and semantic multipage.",
+            "itemPortfolio8.title": "Travellian - responsive, cross-browser and semantic landing page.",
             "contacts.subtitle": "Contacts",
             "contacts.title": "Get in touch",
             "itemContent.title": "Ready to hire me?",
