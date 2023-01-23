@@ -3644,17 +3644,8 @@
                 clickable: true,
                 dynamicBullets: true
             },
-            effect: "coverflow",
             grabCursor: true,
-            centeredSlides: true,
             slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true
-            },
             breakpoints: {
                 320: {
                     slidesPerView: 1,
@@ -4203,6 +4194,7 @@
             "itemPortfolio5.title": "Travelline - responsive, cross-browser and semantic landing page.",
             "itemPortfolio7.title": "Meridian - responsive, cross-browser and semantic multipage.",
             "itemPortfolio8.title": "Travellian - responsive, cross-browser and semantic landing page.",
+            "itemPortfolio9.title": "Funiro - responsive, cross-browser and semantic landing page.",
             "contacts.subtitle": "Contacts",
             "contacts.title": "Get in touch",
             "itemContent.title": "Ready to hire me?",
@@ -4233,6 +4225,9 @@
             "itemPortfolio3.title": "Адаптивна, кросбраузерна та семантична сторінка подарунків.",
             "itemPortfolio4.title": "JavaScript Тест, написаний на React.",
             "itemPortfolio5.title": "Travelline - адаптивна, кросбраузерна та семантична сторінка туристичного агенства.",
+            "itemPortfolio7.title": "Meridian - адаптивна, кросбраузерна та семантична верстка багатосторінкового сайту.",
+            "itemPortfolio8.title": "Travellian - адаптивна, кросбраузерна та семантична верстка цільової сторінки.",
+            "itemPortfolio9.title": "Funiro - адаптивна, кросбраузерна та семантична верстка цільової сторінки.",
             "contacts.subtitle": "Контакти",
             "contacts.title": "Зв'язатися зі мною",
             "itemContent.title": "Готові до співпраці?",
@@ -4263,6 +4258,9 @@
             "itemPortfolio3.title": "Адаптивная, кроссбраузерная и семантическая страница подарков.",
             "itemPortfolio4.title": "JavaScript Тест, написаный на React.",
             "itemPortfolio5.title": "Travelline - адаптивная, кроссбраузерная и семантическая страница туристического агенства.",
+            "itemPortfolio7.title": "Meridian - адаптивная, кроссбраузерная и семантическая верстка многостраничного сайта.",
+            "itemPortfolio8.title": "Travellian - адаптивная, кроссбраузерная и семантическая верстка целевой страницы.",
+            "itemPortfolio9.title": "Funiro - адаптивная, кроссбраузерная и семантическая верстка целевой страницы.",
             "contacts.subtitle": "Контакты",
             "contacts.title": "Связаться со мной",
             "itemContent.title": "Готовы к сотрудничеству?",
